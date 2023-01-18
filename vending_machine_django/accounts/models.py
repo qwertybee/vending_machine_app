@@ -22,6 +22,7 @@ class Product(models.Model):  # just description of each product
 class Order(models.Model):  # status is Order or what stuff vendingmachine/customer got in there
     vending_machine = models.ForeignKey(Vending_Machine, null=True, on_delete=models.SET_NULL)
     product = models.ForeignKey(Product, null=True, on_delete=models.SET_NULL)
+    # product = models.CharField(max_length=20, null=True)
     quantity = models.PositiveIntegerField(null=True)
 
     def __str__(self):
