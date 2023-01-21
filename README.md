@@ -11,8 +11,10 @@ A vending machine tracker application
   - Personal touch to frontend to display, manipulate, test data
   
 ## Installation
+Create then run virtual environment and perform the following in directory
 ```
 pip install django
 pip install djangorestframework
+python manage.py migrate
 python manage.py runserver
 ```
