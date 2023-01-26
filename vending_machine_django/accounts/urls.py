@@ -10,9 +10,7 @@ router.register('stock', views.StockAPIView, basename='stock')
 
 urlpatterns = [
     # basic APIs
-    # path('vending/', views.VendingAPIView.as_view()),
     path('', include(router.urls)),
-    # path('stock/'),
 
     # other routing (more fancy)
     path('', views.home, name="home"),

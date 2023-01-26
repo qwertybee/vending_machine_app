@@ -10,24 +10,6 @@ from rest_framework import viewsets
 class VendingAPIView(viewsets.ModelViewSet): #APIView
     queryset = Vending_Machine.objects.all()
     serializer_class = VendingSerializer
-    # def get(self, request):
-    #     allVending = Vending_Machine.objects.all().values()
-    #     context = {'allVending': allVending}
-    #     return Response(context)
-    #
-    # def post(self, request):
-    #     Vending_Machine.objects.create(
-    #         name=request.data['name'],
-    #         location=request.data['location'],
-    #         date_created=request.data['date_created']
-    #     )
-    #     allVending = Vending_Machine.objects.all().filter(name=request.data['name']).values()
-    #     context = {'allVending': allVending}
-    #     return Response(context)
-    #
-    # def delete(self, request):
-    #     return Response()
-
 
 class ItemAPIView(viewsets.ModelViewSet):
     queryset = Product.objects.all()
@@ -37,12 +19,14 @@ class StockAPIView(viewsets.ModelViewSet):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
 
+
+
+
 def home(request):
     orders = Order.objects.all()
     vending = Vending_Machine.objects.all()
     context = {'orders': orders, 'vending': vending}
     return render(request, 'accounts/dashboard.html', context)
-
 
 def product(request):
     products = Product.objects.all()
