@@ -2,6 +2,7 @@ from .forms import *
 from rest_framework import viewsets
 
 
+# generate relevant functions to perform CRUD API behaviors
 class VendingAPIView(viewsets.ModelViewSet):
     queryset = VendingMachine.objects.all()
     serializer_class = VendingSerializer
