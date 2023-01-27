@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Vending_Machine(models.Model):
+class VendingMachine(models.Model):
     name = models.CharField(max_length=20, null=True)
     location = models.CharField(max_length=200, null=True)
     date_created = models.DateTimeField(auto_now_add=True, null=True)
@@ -20,7 +20,7 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    vending_machine = models.ForeignKey(Vending_Machine, null=True, on_delete=models.SET_NULL)
+    vending_machine = models.ForeignKey(VendingMachine, null=True, on_delete=models.SET_NULL)
     product = models.ForeignKey(Product, null=True, on_delete=models.SET_NULL)
     quantity = models.PositiveIntegerField(null=True)
 
