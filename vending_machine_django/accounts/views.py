@@ -2,8 +2,8 @@ from .forms import *
 from rest_framework import viewsets
 
 
-class VendingAPIView(viewsets.ModelViewSet): #APIView
-    queryset = Vending_Machine.objects.all()
+class VendingAPIView(viewsets.ModelViewSet):
+    queryset = VendingMachine.objects.all()
     serializer_class = VendingSerializer
 
 class ItemAPIView(viewsets.ModelViewSet):

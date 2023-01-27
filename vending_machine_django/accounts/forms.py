@@ -6,7 +6,7 @@ from rest_framework import serializers
 
 class VendingSerializer(serializers.ModelSerializer): #serializers.Serializer
     class Meta:
-        model = Vending_Machine
+        model = VendingMachine
         fields = '__all__'
 
 class ItemSerializer(serializers.ModelSerializer):
