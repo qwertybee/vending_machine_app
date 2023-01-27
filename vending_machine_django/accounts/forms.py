@@ -4,7 +4,7 @@ from rest_framework import serializers
 
 # FORMS AKA 'SERIALIZERS'
 
-class VendingSerializer(serializers.ModelSerializer): #serializers.Serializer
+class VendingSerializer(serializers.ModelSerializer):
     class Meta:
         model = VendingMachine
         fields = '__all__'

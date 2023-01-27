@@ -1,6 +1,7 @@
 from django.db import models
 
 
+# class for database models to be stored
 class VendingMachine(models.Model):
     name = models.CharField(max_length=20)
     location = models.CharField(max_length=200)
