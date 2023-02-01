@@ -1,6 +1,5 @@
 from django.test import TestCase
-from ..views import *
-from ..models import *
+from ..models import VendingMachine, Product
 
 
 class TestVendingMachineModels(TestCase):

@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from .models import *
+from .models import VendingMachine, Product, Order
 from rest_framework import serializers
 
 # FORMS AKA 'SERIALIZERS'
