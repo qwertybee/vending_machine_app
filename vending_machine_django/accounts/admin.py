@@ -1,4 +1,6 @@
-"""Registered models to sqlite's admin database panel"""
+"""
+Registered models to sqlite's admin database panel
+"""
 from django.contrib import admin
 
 # Register your models here.

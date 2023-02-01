@@ -1,4 +1,6 @@
-"""Extend url connections to accounts folder as well."""
+"""
+Extend url connections to accounts folder as well.
+"""
 from django.contrib import admin
 from django.urls import include, path
 

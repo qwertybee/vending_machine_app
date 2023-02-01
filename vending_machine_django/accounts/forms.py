@@ -1,4 +1,6 @@
-"""Create forms/serializers for our models."""
+"""
+Create forms/serializers for our models.
+"""
 from rest_framework import serializers
 
 from .models import Order, Product, VendingMachine

@@ -1,4 +1,6 @@
-"""Generate relevant functions to perform CRUD API behaviors"""
+"""
+Generate relevant functions to perform CRUD API behaviors
+"""
 from rest_framework import viewsets
 
 from .forms import ItemSerializer, OrderSerializer, VendingSerializer

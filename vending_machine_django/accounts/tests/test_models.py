@@ -1,4 +1,6 @@
-"""Test units for our models"""
+"""
+Test units for our models
+"""
 from django.test import TestCase
 
 from ..models import Product, VendingMachine

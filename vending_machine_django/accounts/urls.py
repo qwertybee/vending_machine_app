@@ -1,4 +1,6 @@
-"""Construct urls via router and ModelViewSet"""
+"""
+Construct urls via router and ModelViewSet
+"""
 from django.urls import include, path
 from rest_framework import routers
 
