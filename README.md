@@ -1,14 +1,15 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=qwertybee_vending_machine_app)
 
 Directory
+```
 .
 ├── README.md
 ├── __pycache__
-├── poetry.lock
-├── pyproject.toml
-├── sonar-project.properties
-├── tox.ini
-└── vending_machine_django
+├── poetry.lock 
+├── pyproject.toml 
+├── sonar-project.properties 
+├── tox.ini 
+└── vending_machine_django 
     ├── accounts
     │   ├── admin.py
     │   ├── apps.py
@@ -26,6 +27,7 @@ Directory
         ├── settings.py
         ├── urls.py
         └── wsgi.py
+```
 
 # Vending Machine Application
 A vending machine tracker application
