@@ -1,8 +1,12 @@
-from .forms import *
+"""
+Generate relevant functions to perform CRUD API behaviors
+"""
 from rest_framework import viewsets
 
+from .forms import ItemSerializer, OrderSerializer, VendingSerializer
+from .models import Order, Product, VendingMachine
 
-# generate relevant functions to perform CRUD API behaviors
+
 class VendingAPIView(viewsets.ModelViewSet):
     queryset = VendingMachine.objects.all()
     serializer_class = VendingSerializer
