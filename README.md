@@ -1,6 +1,4 @@
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=qwertybee_vending_machine_app&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=qwertybee_vending_machine_app)
-
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=qwertybee_vending_machine_app&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=qwertybee_vending_machine_app)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=qwertybee_vending_machine_app&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=qwertybee_vending_machine_app)    [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=qwertybee_vending_machine_app&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=qwertybee_vending_machine_app)
 
 Directory Structure
 ```
