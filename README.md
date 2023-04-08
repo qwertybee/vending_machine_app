@@ -14,7 +14,7 @@ A vending machine tracker application
     - Disregard need of external API testers (i.e. Postman, etc.) to manipulate database
   - Personal touch to frontend to display, manipulate, test data
 
-<img width="803" alt="Screen Shot 2023-04-09 at 3 04 41 AM" src="https://user-images.githubusercontent.com/56635619/230740570-8f5489d9-86b8-4004-a47c-30aa8b03e1c9.png">
+<img width="869" alt="Screen Shot 2023-04-09 at 4 07 21 AM" src="https://user-images.githubusercontent.com/56635619/230742580-150d171b-0f93-4995-b22a-85111ef63dc6.png">
 
 *Note "Stock" in diagram is equivalent to "Order" in Django*
 
